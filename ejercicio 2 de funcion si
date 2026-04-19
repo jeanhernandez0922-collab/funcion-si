@@ -1,0 +1,17 @@
+Algoritmo salario_de_empleado
+	Escribir "programa de pago a un empleado"
+	Escribir "bienvenido"
+	Escribir " "
+	Escribir "digite su nombre"
+	leer nombre
+	Escribir "digite su salario"
+	leer salario
+	si salario >= 1000000 Entonces
+		total = salario * 1.2
+		Escribir "el total a pagar seria ", total
+	SiNo
+		total = salario * 1.3
+		Escribir "el total a pagar seria ", total
+	FinSi
+	
+FinAlgoritmo
