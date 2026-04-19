@@ -1,0 +1,15 @@
+Proceso edad
+	//reealizar un programa que capture la edad de una persona y dectermine si es mayor de edad
+	Escribir "programa que determina la mayoria de edad de una persona"
+	Escribir "bom dia"
+	Escribir "digite su nombre"
+	Leer nombre
+	Escribir "digite su edad"
+	Leer edad1 
+	si edad1 >= 18 Entonces
+		Escribir nombre, " es mayor de edad"
+	SiNo
+		Escribir nombre, " es menor de edad"
+	FinSi
+	
+FinProceso
